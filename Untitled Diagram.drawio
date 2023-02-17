@@ -1,1 +1,177 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T21:10:08.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.3.0" etag="yht2xr344eiH_Cq8nACO" type="github"><diagram id="z3SU-9NIy3_Db4be6t5X">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-17T21:47:37.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wl145rdE2q_-6GmW4yIE" version="20.3.0" type="github">
+  <diagram id="z3SU-9NIy3_Db4be6t5X" name="Page-1">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zB6_l2PBLwlegObrJB-d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-1" target="zB6_l2PBLwlegObrJB-d-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="189" />
+              <mxPoint x="580" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-15" value="&lt;b&gt;2. Push each PUUID to queue&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-13">
+          <mxGeometry x="0.2588" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-1" value="&lt;b&gt;TrackerLambda1&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="153" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-2" target="zB6_l2PBLwlegObrJB-d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-2" value="&lt;b&gt;Event1&lt;/b&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.event_time_based;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="150" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-4" target="zB6_l2PBLwlegObrJB-d-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="349" />
+              <mxPoint x="430" y="350" />
+              <mxPoint x="580" y="350" />
+              <mxPoint x="580" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-16" value="&lt;b&gt;2. Push each PUUID to queue&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-14">
+          <mxGeometry x="0.2848" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-4" value="&lt;b&gt;TrackerLambda2&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="313" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-6" target="zB6_l2PBLwlegObrJB-d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-6" value="&lt;b&gt;Event2&lt;/b&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.event_time_based;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="310" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-7" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="414" y="232" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-12" target="zB6_l2PBLwlegObrJB-d-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-12" value="&lt;b&gt;PlayersTrack&lt;/b&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="1">
+          <mxGeometry x="630" y="232" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-4" target="zB6_l2PBLwlegObrJB-d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-11" value="&lt;b&gt;1. Scan partition 2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-9">
+          <mxGeometry x="-0.2852" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-10" value="&lt;b&gt;1. Scan partition 1&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-8">
+          <mxGeometry x="-0.3435" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-18" target="zB6_l2PBLwlegObrJB-d-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="271" />
+              <mxPoint x="880" y="27" />
+              <mxPoint x="970" y="27" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-25" value="1. get matches for puuid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-24">
+          <mxGeometry x="0.2943" y="-1" relative="1" as="geometry">
+            <mxPoint x="66" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-31" value="&lt;b&gt;2. for each match, push details&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-26">
+          <mxGeometry x="-0.3716" y="-2" relative="1" as="geometry">
+            <mxPoint x="49" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-18" value="&lt;b&gt;Consumer&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="235" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-22" value="Sample message format: {puuid: 1231, lastScannedMatchTimeStamp: 784}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-23" value="&lt;b&gt;RIOT APIs&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="-20" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-33" value="&lt;b&gt;Update last match time (if current time is not greator, can happen on message retry)&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-40" target="zB6_l2PBLwlegObrJB-d-32">
+          <mxGeometry x="-0.2794" y="11" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1790" y="261" />
+              <mxPoint x="1790" y="500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-40" target="zB6_l2PBLwlegObrJB-d-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="303" />
+              <mxPoint x="1350" y="540" />
+              <mxPoint x="1464" y="540" />
+              <mxPoint x="1464" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-36" value="&lt;b&gt;Update kills/assists/deaths/kda/winrate&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-35">
+          <mxGeometry x="0.2041" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-27" target="zB6_l2PBLwlegObrJB-d-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1404" y="230" />
+              <mxPoint x="1404" y="87" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-39" value="If interseting Event, publish to Discord API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="zB6_l2PBLwlegObrJB-d-38">
+          <mxGeometry x="0.351" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-42" value="&lt;b&gt;Batches of 10&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zB6_l2PBLwlegObrJB-d-27" target="zB6_l2PBLwlegObrJB-d-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-27" value="&lt;b&gt;PlayerMatchUpdate.fifo&lt;/b&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="225" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-28" value="Sample message format: {&lt;br&gt;puuid:X,&lt;br&gt;matchDeatils:...}&lt;br&gt;&lt;br&gt;&lt;b&gt;GroupId will be PUUID, dedupId = matchId&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="120" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-32" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="500" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-34" value="Incase This lambda had duplicate messages where first one succeded, second failed, went to DLQ, and after 5 minutes (the period where fifo clear dudpulication history) it got re driven, then fifo will process this message twice" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="730" y="340" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-37" value="&lt;b&gt;Discord API&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="40" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-40" value="&lt;b&gt;Consumer&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1311" y="231" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="zB6_l2PBLwlegObrJB-d-44" value="&lt;b&gt;Will contain GSI on each: kills, assists, deaths, kda, winrate to allow ranking and leadership view&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="585" width="220" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
